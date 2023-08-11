@@ -1,0 +1,207 @@
+/*--------------Reset-----------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+a{
+    text-decoration: none;
+    color:#0F70B7;
+
+}
+
+/*-----------------Header-------------*/
+header {
+    font-weight: 500;
+    margin-right: 15px;
+}
+.navbar-expand-md .navbar-collapse{
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+header nav div a img{
+    width: 350px;
+    height: 100px;
+}
+
+.about{
+    text-align: center;
+}
+
+.novedades-index{
+    text-align: center;
+}
+.img-curso-index{
+    height: 300px;
+    width: 400px;
+}
+
+.navbar-nav{
+    align-items: center;
+}
+
+/* -------------------------header--------------------------- */
+
+.cont{
+    text-align: center;
+    align-items: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image: url(../imagenes/pano.jpg);
+    opacity: 0.9;
+    color:#fff;
+    font-family: 'Bebas Neue', sans-serif;
+    height: 400px;
+}
+.carousel-caption {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    font-family: 'Bitter', serif;
+    background: rgba(0, 0, 0, 0.3);
+    
+}
+.h1-carousel{
+    font-size: 4rem;
+}
+.h1-nosotros{
+    padding-top: 160px;
+    font-size: 75px;
+}
+.h1-index{
+    margin-bottom: 40px;
+}
+.texto-nosotros{
+    text-align: center;
+}
+.h2-nosotros{
+    text-align: center;
+    font-family: 'Didact Gothic', sans-serif; 
+}
+.h2-index{
+    margin-top: 40px;
+}
+.texto-articulo{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 1.4rem;
+    
+}
+.hx-index{
+    margin-top: 15px;
+    font-family: 'Didact Gothic', sans-serif;
+}
+.text-index{
+    width: 70%;
+    display:inline-block;
+    font-size: 1.5rem;
+
+}
+/* ----------------------------nosotros-------------------------------- */
+/* --------------------------------turnos------------------------ */
+.turnos-div{
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Didact Gothic', sans-serif; 
+    
+}
+.h1-turnos{
+    font-weight:600;
+    color: rgb(66, 66, 66);
+    margin-bottom: 100px;
+}
+.contacto-div{
+    margin-top: 50px;
+    font-family: 'Didact Gothic', sans-serif;
+    text-align: center;
+    height: 300px;
+}
+.h3-contacto{
+    font-size: 33px;
+    color: rgb(61, 60, 60);
+}
+
+.section-contactos{
+    text-align: center;
+    color:  rgba(61, 60, 60, 0.877);
+}
+.btn{
+    border: solid 0.5px; 
+    border-radius: 20px;
+}
+.aula-virtual{
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight:100;
+    margin-top: 30px
+}
+
+/* ---------------------Turnos-------------------------------- */
+.div-articulos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.ul-art :hover{
+    color: black
+}
+.section-art{
+    text-align: center;
+    margin-top: 35px;
+    font-family: 'Didact Gothic', sans-serif;
+}
+.section-art button{
+    margin-top: 50px;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+@media screen and (max-width: 500px){
+    .img-curso-index{
+        height: 210px;
+        width: 250px;
+    }
+    header nav div a img{
+        width: 50%;
+        height: 50%;
+    }
+    .text-index{
+        display: none;
+    }
+    .h1-carousel{
+        font-size: 1.6rem;
+    }
+    .h3-contacto{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 420px){
+    .img-curso-index{
+        height: 200px;
+        width: 250px;
+    }
+
+    .h1-carousel{
+        font-size: 1.4rem;
+    }
+    .h3-contacto{
+        font-size: 27px;
+    }
+    .text-index{
+        display: none;
+        font-size: 1rem;
+    }
+}
+
+/* -------------------footer----------------- */
+.logo-ig{
+    width: 25px;
+    height: 25px;
+}
