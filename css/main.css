@@ -181,6 +181,11 @@ header nav div a img{
     .h3-contacto{
         font-size: 18px;
     }
+    img{
+        width: 120px;
+        margin-top: 20px;
+    }
+    
 }
 @media screen and (max-width: 420px){
     .img-curso-index{
@@ -198,10 +203,38 @@ header nav div a img{
         display: none;
         font-size: 1rem;
     }
+    img{
+        width: 120px;
+        margin-top: 20px;
+    }
+    
 }
 
 /* -------------------footer----------------- */
 .logo-ig{
     width: 25px;
     height: 25px;
+}
+
+
+
+
+.cards{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+   padding: 20px;
+   grid-gap: 40px;
+   margin-top: 150px;
+   
+
+}
+.card{
+    background-color: #c1def3;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.18);
+    text-align: center;
+}
+.container{
+    position: relative;
+    clip-path: polygon(0 0,100% 0,100% 85% 0 100%);
 }
