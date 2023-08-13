@@ -131,6 +131,9 @@ header nav div a img{
 .btn{
     border: solid 0.5px; 
     border-radius: 20px;
+    font-size: 2rem;
+    font-family: 'Didact Gothic', sans-serif;
+    color:#25d368; text-shadow: 2px 2px 0px green;
 }
 .aula-virtual{
     text-align: center;
@@ -184,6 +187,14 @@ header nav div a img{
     img{
         width: 120px;
         margin-top: 20px;
+    }
+    
+    .aula-virtual{
+        text-align: center;
+        font-size: 0.5rem;
+        font-family: 'Didact Gothic', sans-serif;
+        font-weight:100;
+        margin-top: 30px
     }
     
 }
